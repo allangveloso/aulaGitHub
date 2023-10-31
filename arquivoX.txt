@@ -1,8 +1,8 @@
-Olá, este é o arquivo w
-w
-ww
-www
-wwww
-wwwww
+Olá, este é o arquivo z, que era w e já foi x
+z
+zz
+zzz
+zzzz
+zzzzz
 
-Fim do arquivo x que agora é w
+Fim do arquivo w que agora é z
