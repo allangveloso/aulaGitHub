@@ -1,9 +1,0 @@
-<<<<<<< HEAD
-Olá, este é o arquivo t, que era w e já foi x
-t
-tt
-ttt
-tttt
-ttttt
-
-Fim do arquivo w que agora é t
