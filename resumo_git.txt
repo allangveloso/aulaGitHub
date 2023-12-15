@@ -1,0 +1,66 @@
+//Criar um novo repositório local Git
+Criar uma pasta local
+Adicionar o arquivo .gitignore (incluir nele as extensões que deverão ser ignoradas, procurar na net por "git ignore visual studio versãoX
+Na pasta do repositório, abrir o gitBash e digitar: 
+git init
+
+
+//associar usuário ao repositório git (usar o email do GitHub)
+git config --global user.name 	"username"
+git config --global user.email 	"email"
+
+//add arquivos ao repositório local
+git add . 		(add tudo)
+git add xpto 	(add apenas xpto)
+
+
+//ver o status dos arquivos do repositório
+git status
+
+
+//commit
+git commit -m "texto"
+
+
+//verificar o log dos commits
+git log				(exibe todos os logs)
+git log --oneline	(exibe apenas o último log)
+
+
+//Voltar ao estado do comit atual, sem ter comitado ainda (tipo ctrl+z)
+git clean -df
+git checkout -- .
+
+//Remover o último commit mantendo as alterações nos arquivos
+git reset --soft HEAD~1
+
+//Remover o último commit INCLUSIVE as alterações nos arquivos (perigo!)
+git reset --hard HEAD~1
+
+
+//Visualizar o conteúdo do arquivo de algum commit
+git checkout <código do commit>
+
+//Voltar para o último commit
+git checkout <nome do branch>
+
+
+//associar o repositório local ao remoto
+git remote add origin <URI do repositório remoto>	(origin é o nome do repositório, poderia ser outro)
+
+
+//Associar o repositório local a um outro repositório remoto, porém mantendo o mesmo apelido:
+git remote set-url origin <URI do repositório remoto>
+
+
+//Enviar o repositório local para o Github
+git push -u origin main
+git push 
+
+
+//baixar o repositório remoto para local
+git clone <URI do repositório remoto>
+
+
+//atualizar o repositório local com a versão que está no repositório remoto
+git pull nomeDoRepositorio
